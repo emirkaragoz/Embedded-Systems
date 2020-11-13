@@ -1,0 +1,467 @@
+# reset: 1, done_fibo:          0, number:          8, cs_fibo :       xxx,   ns_fibo:        000, fibo:     x
+# reset: 1, done_oddeven:       0, number:          8, cs_oddeven:      xx,   ns_oddeven:      00, odd:      x, even: x
+# reset: 1, done_palindromic:   0, number:          8, cs_palindro:    xxx,   ns_palindro:    000, palindro: x
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:          8, cs_oddeven:      00,   ns_oddeven:      10, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:          8, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:          8, cs_oddeven:      10,   ns_oddeven:      11, odd:      0, even: 1
+# reset: 0, done_palindromic:   0, number:          8, cs_palindro:    001,   ns_palindro:    011, palindro: 0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:          8, cs_palindro:    011,   ns_palindro:    101, palindro: 1
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:          8, cs_fibo :       010,   ns_fibo:        100, fibo:     0
+# reset: 0, done_fibo:          1, number:          8, cs_fibo :       100,   ns_fibo:        110, fibo:     1
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:         12, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:         12, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:         12, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:         12, cs_oddeven:      00,   ns_oddeven:      10, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:         12, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:         12, cs_oddeven:      10,   ns_oddeven:      11, odd:      0, even: 1
+# reset: 0, done_palindromic:   0, number:         12, cs_palindro:    001,   ns_palindro:    010, palindro: 0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:         12, cs_palindro:    010,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         12, cs_fibo :       010,   ns_fibo:        101, fibo:     0
+# reset: 0, done_fibo:          1, number:         12, cs_fibo :       101,   ns_fibo:        110, fibo:     0
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:          4, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:          4, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:          4, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:          4, cs_oddeven:      00,   ns_oddeven:      10, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:          4, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:          4, cs_oddeven:      10,   ns_oddeven:      11, odd:      0, even: 1
+# reset: 0, done_palindromic:   0, number:          4, cs_palindro:    001,   ns_palindro:    011, palindro: 0
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:          4, cs_palindro:    011,   ns_palindro:    101, palindro: 1
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:          4, cs_fibo :       010,   ns_fibo:        101, fibo:     0
+# reset: 0, done_fibo:          1, number:          4, cs_fibo :       101,   ns_fibo:        110, fibo:     0
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:          2, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:          2, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:          2, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:          2, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:          2, cs_oddeven:      00,   ns_oddeven:      10, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:          2, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:          2, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:          2, cs_oddeven:      10,   ns_oddeven:      11, odd:      0, even: 1
+# reset: 0, done_palindromic:   0, number:          2, cs_palindro:    001,   ns_palindro:    011, palindro: 0
+# reset: 0, done_fibo:          0, number:          2, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:          2, cs_palindro:    011,   ns_palindro:    101, palindro: 1
+# reset: 0, done_fibo:          0, number:          2, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:          2, cs_fibo :       010,   ns_fibo:        100, fibo:     0
+# reset: 0, done_fibo:          1, number:          2, cs_fibo :       100,   ns_fibo:        110, fibo:     1
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:         89, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:         89, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:         89, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:         89, cs_oddeven:      00,   ns_oddeven:      01, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:         89, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:         89, cs_oddeven:      01,   ns_oddeven:      11, odd:      1, even: 0
+# reset: 0, done_palindromic:   0, number:         89, cs_palindro:    001,   ns_palindro:    010, palindro: 0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:         89, cs_palindro:    010,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:         89, cs_fibo :       010,   ns_fibo:        100, fibo:     0
+# reset: 0, done_fibo:          1, number:         89, cs_fibo :       100,   ns_fibo:        110, fibo:     1
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:      12321, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:      12321, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:      12321, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:      12321, cs_oddeven:      00,   ns_oddeven:      01, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:      12321, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:      12321, cs_oddeven:      01,   ns_oddeven:      11, odd:      1, even: 0
+# reset: 0, done_palindromic:   0, number:      12321, cs_palindro:    001,   ns_palindro:    100, palindro: 0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   0, number:      12321, cs_palindro:    100,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_palindromic:   0, number:      12321, cs_palindro:    001,   ns_palindro:    100, palindro: 0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   0, number:      12321, cs_palindro:    100,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_palindromic:   0, number:      12321, cs_palindro:    001,   ns_palindro:    011, palindro: 0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:      12321, cs_palindro:    011,   ns_palindro:    101, palindro: 1
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:      12321, cs_fibo :       010,   ns_fibo:        101, fibo:     0
+# reset: 0, done_fibo:          1, number:      12321, cs_fibo :       101,   ns_fibo:        110, fibo:     0
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:    1015101, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:    1015101, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:    1015101, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:    1015101, cs_oddeven:      00,   ns_oddeven:      01, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:    1015101, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:    1015101, cs_oddeven:      01,   ns_oddeven:      11, odd:      1, even: 0
+# reset: 0, done_palindromic:   0, number:    1015101, cs_palindro:    001,   ns_palindro:    100, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   0, number:    1015101, cs_palindro:    100,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_palindromic:   0, number:    1015101, cs_palindro:    001,   ns_palindro:    100, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   0, number:    1015101, cs_palindro:    100,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_palindromic:   0, number:    1015101, cs_palindro:    001,   ns_palindro:    100, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   0, number:    1015101, cs_palindro:    100,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_palindromic:   0, number:    1015101, cs_palindro:    001,   ns_palindro:    011, palindro: 0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:    1015101, cs_palindro:    011,   ns_palindro:    101, palindro: 1
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:    1015101, cs_fibo :       010,   ns_fibo:        101, fibo:     0
+# reset: 0, done_fibo:          1, number:    1015101, cs_fibo :       101,   ns_fibo:        110, fibo:     0
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:  235542789, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:  235542789, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:  235542789, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:  235542789, cs_oddeven:      00,   ns_oddeven:      01, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:  235542789, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:  235542789, cs_oddeven:      01,   ns_oddeven:      11, odd:      1, even: 0
+# reset: 0, done_palindromic:   0, number:  235542789, cs_palindro:    001,   ns_palindro:    010, palindro: 0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:  235542789, cs_palindro:    010,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:  235542789, cs_fibo :       010,   ns_fibo:        101, fibo:     0
+# reset: 0, done_fibo:          1, number:  235542789, cs_fibo :       101,   ns_fibo:        110, fibo:     0
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:   30150092, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:   30150092, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:   30150092, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:   30150092, cs_oddeven:      00,   ns_oddeven:      10, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:   30150092, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:   30150092, cs_oddeven:      10,   ns_oddeven:      11, odd:      0, even: 1
+# reset: 0, done_palindromic:   0, number:   30150092, cs_palindro:    001,   ns_palindro:    010, palindro: 0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:   30150092, cs_palindro:    010,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:   30150092, cs_fibo :       010,   ns_fibo:        101, fibo:     0
+# reset: 0, done_fibo:          1, number:   30150092, cs_fibo :       101,   ns_fibo:        110, fibo:     0
+# ------------------------------------------------------------------------------------------------------------
+# reset: 1, done_fibo:          0, number:       2001, cs_fibo :       110,   ns_fibo:        110, fibo:     0
+# reset: 1, done_oddeven:       0, number:       2001, cs_oddeven:      11,   ns_oddeven:      11, odd:      0, even: 0
+# reset: 1, done_palindromic:   0, number:       2001, cs_palindro:    101,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       000,   ns_fibo:        001, fibo:     0
+# reset: 0, done_oddeven:       0, number:       2001, cs_oddeven:      00,   ns_oddeven:      01, odd:      0, even: 0
+# reset: 0, done_palindromic:   0, number:       2001, cs_palindro:    000,   ns_palindro:    001, palindro: 0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       001,   ns_fibo:        010, fibo:     0
+# reset: 0, done_oddeven:       1, number:       2001, cs_oddeven:      01,   ns_oddeven:      11, odd:      1, even: 0
+# reset: 0, done_palindromic:   0, number:       2001, cs_palindro:    001,   ns_palindro:    010, palindro: 0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_palindromic:   1, number:       2001, cs_palindro:    010,   ns_palindro:    101, palindro: 0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        011, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       011,   ns_fibo:        010, fibo:     0
+# reset: 0, done_fibo:          0, number:       2001, cs_fibo :       010,   ns_fibo:        101, fibo:     0
+# reset: 0, done_fibo:          1, number:       2001, cs_fibo :       101,   ns_fibo:        110, fibo:     0
+# ------------------------------------------------------------------------------------------------------------
+# End of the test.
